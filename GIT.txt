@@ -1,0 +1,530 @@
+Last login: Fri Nov 17 13:56:07 on ttys000
+shaohuil-hz-3:~ Huiling$ ssh-keygen -t rsa -b 4096 -C "huilingshao7@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/apple/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/apple/.ssh/id_rsa.
+Your public key has been saved in /Users/apple/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:2jCwr/iMQdbmVxIE/F3cTUFdZVJlGGxGaQxczEqz8i8 huilingshao7@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|   ....  . o.%OB@|
+|    ..    o = %+.|
+|    .... . . B   |
+|   . o... . o    |
+|  o + + S  o     |
+| o o . B    .    |
+|  . . + .    .   |
+|   = o      E .  |
+|  o.+        .   |
++----[SHA256]-----+
+shaohuil-hz-3:~ Huiling$ ~/.s
+.sogouinput/ .ssh/        .subversion/ 
+shaohuil-hz-3:~ Huiling$ ~/.s
+.sogouinput/ .ssh/        .subversion/ 
+shaohuil-hz-3:~ Huiling$ cat ~/.ssh/
+cat: /Users/apple/.ssh/: Is a directory
+shaohuil-hz-3:~ Huiling$ cat ~/.ssh/id_rsa.pub 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCyWkCqxUcr1CdBGLcASwp7FzRwLMxQGqdR2YMHJUHnFBj1Pnx0OUHBrypz09n4YIZDDJAnrnYSGY5Q8tFfgxF/6holaz6ofiOEKi7hB73PwjLOMS1HSrZfIzNz4o0mAZEYJBZ8V/MlMMKrPH2rWDeLYaV2l9M41ImhOWH0e1tl5mp+S7Z0ThYuVPUnRV3FRtniKJq3WN2adm8bMJfpiAZaOJ0ihXxUzh5FodKSiFdL/sh55q8bDQ5vGiUk5aK8nK/bAjuQgstWk/z8meCbZijyAlrW3AS3zlKAS7/2IV+2cv+8WGBki2pJgwJwooIjgikDZ9EDv/OcYo+J6EDKR0ItMWnNdTLUwYTP1/7JU3604/c48gdelNhPyExGGs3GCF3EY8JVkLV+GpQAvqF7bwUnIw7P2a6Ox/P8NskDXIWWfbP48l8xqXKGsPa+bCunKdrOJkkh1SgjwUHc4WLH9N4/aV9NWgESdY1OmW386yDVzOOn3rhhuVGPNLglBiUZd5HoXFmCYcFlx1kucLu8gw5VHE8bLXhP7hDBKZ0zPFlun78Q5G3X/bPFkeObhFE/+M6+d1u9vqMfsJ6tsXWjzDLVVdprYQ36+l9Bs9eXconVMU9NWKRhSdVCi33ilzbw45xtd7WtbuSc1wwHnpLqjweGytOuj5eQpulcAlLQBgIoOQ== huilingshao7@gmail.com
+shaohuil-hz-3:~ Huiling$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+shaohuil-hz-3:~ Huiling$ cd Documents/
+shaohuil-hz-3:Documents Huiling$ ls
+LO23				StudioWorkspace
+PRDW				Virtual Machines.localized
+RO05				workflow
+RO06				workspace
+SY19				桌面.jpg
+SamsungPrinterInstaller.zip
+shaohuil-hz-3:Documents Huiling$ cd PRDW/
+shaohuil-hz-3:PRDW Huiling$ ls
+AsterQueen	AsterWorker	PRDW_support	prdw-a17-api
+shaohuil-hz-3:PRDW Huiling$ git clone git@github.com:Xzirva/TeradataSQLFiles.git
+Cloning into 'TeradataSQLFiles'...
+The authenticity of host 'github.com (192.30.253.112)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? y
+Please type 'yes' or 'no': yes
+Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+remote: Counting objects: 287, done.
+remote: Compressing objects: 100% (135/135), done.
+remote: Total 287 (delta 124), reused 287 (delta 124), pack-reused 0
+Receiving objects: 100% (287/287), 174.74 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (124/124), done.
+Checking connectivity... done.
+shaohuil-hz-3:PRDW Huiling$ ls
+AsterQueen		PRDW_support		prdw-a17-api
+AsterWorker		TeradataSQLFiles
+shaohuil-hz-3:PRDW Huiling$ cd TeradataSQLFiles/
+shaohuil-hz-3:TeradataSQLFiles Huiling$ cd ~
+shaohuil-hz-3:~ Huiling$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+shaohuil-hz-3:~ Huiling$ cd Documents
+shaohuil-hz-3:Documents Huiling$ ls
+LO23				StudioWorkspace
+PRDW				Virtual Machines.localized
+RO05				workflow
+RO06				workspace
+SY19				桌面.jpg
+SamsungPrinterInstaller.zip
+shaohuil-hz-3:Documents Huiling$ cd PRDW
+shaohuil-hz-3:PRDW Huiling$ ls
+AsterQueen		PRDW_support		prdw-a17-api
+AsterWorker		TeradataSQLFiles
+shaohuil-hz-3:PRDW Huiling$ cd 
+shaohuil-hz-3:~ Huiling$ cd Documents
+shaohuil-hz-3:Documents Huiling$ cd PRDW
+shaohuil-hz-3:PRDW Huiling$ ls
+AsterQueen		PRDW_support		prdw-a17-api
+AsterWorker		TeradataSQLFiles
+shaohuil-hz-3:PRDW Huiling$ cd TeradataSQLFiles/
+shaohuil-hz-3:TeradataSQLFiles Huiling$ ls
+SQL
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+	SQL/.DS_Store
+
+nothing added to commit but untracked files present (use "git add" to track)
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git add .
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git commit -am "commit"
+[master 93eef03] commit
+ Committer: HuilingSHAO <Huiling@shaohuil-hz-3.etu.utc>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 .DS_Store
+ create mode 100644 SQL/.DS_Store
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git config user.name "HuilingSHAO"
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git config user.email "huilingshao7@gmail.com"
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git push origin master
+Warning: Permanently added the RSA host key for IP address '192.30.253.113' to the list of known hosts.
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 985 bytes | 0 bytes/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To git@github.com:Xzirva/TeradataSQLFiles.git
+   a11b79f..93eef03  master -> master
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git pull origin master
+From github.com:Xzirva/TeradataSQLFiles
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+shaohuil-hz-3:TeradataSQLFiles Huiling$ 
+Last login: Fri Nov 17 15:31:52 on ttys002
+shaohuil-hz-3:~ Huiling$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+shaohuil-hz-3:~ Huiling$ cd Documents
+shaohuil-hz-3:Documents Huiling$ ls
+LO23				StudioWorkspace
+PRDW				Virtual Machines.localized
+RO05				workflow
+RO06				workspace
+SY19				桌面.jpg
+SamsungPrinterInstaller.zip
+shaohuil-hz-3:Documents Huiling$ cd PRDW
+shaohuil-hz-3:PRDW Huiling$ ls
+AsterQueen		GIT.txt			TeradataSQLFiles
+AsterWorker		PRDW_support		prdw-a17-api
+shaohuil-hz-3:PRDW Huiling$ cd TeradataSQLFiles
+shaohuil-hz-3:TeradataSQLFiles Huiling$ ls
+SQL
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git pull origin master
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+From github.com:Xzirva/TeradataSQLFiles
+ * branch            master     -> FETCH_HEAD
+   93eef03..cd37e0c  master     -> origin/master
+Updating 93eef03..cd37e0c
+Fast-forward
+ SQL/create_tables_PRDW.sql | 217 +++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 217 insertions(+)
+ create mode 100644 SQL/create_tables_PRDW.sql
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git push origin master
+Everything up-to-date
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   .DS_Store
+	modified:   SQL/create-db-staging.sql
+
+no changes added to commit (use "git add" and/or "git commit -a")
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+Did you mean this?
+	add
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git add .
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git push origin master
+Everything up-to-date
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   .DS_Store
+	modified:   SQL/create-db-staging.sql
+
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git commit -m
+error: switch `m' requires a value
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <default>   how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit hook
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git commit -m "update create-db-staging.sql"
+[master 0208687] update create-db-staging.sql
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git push origin master
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 479 bytes | 0 bytes/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To git@github.com:Xzirva/TeradataSQLFiles.git
+   cd37e0c..0208687  master -> master
+shaohuil-hz-3:TeradataSQLFiles Huiling$ 
+
+
+#git conflit
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git pull origin master
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+From github.com:Xzirva/TeradataSQLFiles
+ * branch            master     -> FETCH_HEAD
+   b338db2..b2d3023  master     -> origin/master
+Updating b338db2..b2d3023
+error: Your local changes to the following files would be overwritten by merge:
+	SQL/create-db-target-v2.sql
+Please commit your changes or stash them before you can merge.
+Aborting
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git stash
+Saved working directory and index state WIP on master: b338db2 modify creat-db-target-v2
+HEAD is now at b338db2 modify creat-db-target-v2
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git pull origin master
+From github.com:Xzirva/TeradataSQLFiles
+ * branch            master     -> FETCH_HEAD
+Updating b338db2..b2d3023
+Fast-forward
+ SQL/create-db-target-v2.sql | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git stash apply
+Auto-merging SQL/create-db-target-v2.sql
+CONFLICT (content): Merge conflict in SQL/create-db-target-v2.sql
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Unmerged paths:
+  (use "git reset HEAD <file>..." to unstage)
+  (use "git add <file>..." to mark resolution)
+
+	both modified:   SQL/create-db-target-v2.sql
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   SQL/.DS_Store
+
+no changes added to commit (use "git add" and/or "git commit -a")
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git add .
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git commit -m 'resoudre conflits create-db-target-v2'
+[master b5b1e83] resoudre conflits create-db-target-v2
+ 2 files changed, 2 insertions(+)
+shaohuil-hz-3:TeradataSQLFiles Huiling$ git push origin master
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 463 bytes | 0 bytes/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To git@github.com:Xzirva/TeradataSQLFiles.git
+   b2d3023..b5b1e83  master -> master
+shaohuil-hz-3:TeradataSQLFiles Huiling$ 
+
+
+checkout a new branche:
+shaohuil-hz-3:LO23-Battleship-Online Huiling$ git fetch origin
+remote: Counting objects: 950, done.
+remote: Compressing objects: 100% (68/68), done.
+remote: Total 950 (delta 455), reused 540 (delta 449), pack-reused 400
+Receiving objects: 100% (950/950), 101.81 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (537/537), completed with 97 local objects.
+From github.com:alexballet/LO23-Battleship-Online
+ * [new branch]      gestionFinPartie_data -> origin/gestionFinPartie_data
+   032f438..42d051c  ihm-main   -> origin/ihm-main
+   b0d37ea..1746ad3  ihm-main-games-view -> origin/ihm-main-games-view
+   839e70b..42d051c  ihm-main-profil -> origin/ihm-main-profil
+   5e11149..84dbeab  ihm-plateau-game-phase -> origin/ihm-plateau-game-phase
+   9e9073b..f605da4  ihm-plateau-popUp -> origin/ihm-plateau-popUp
+   6b46fa1..bf8f801  ihm-plateau-timer -> origin/ihm-plateau-timer
+   99a0d92..8e83a83  integV2    -> origin/integV2
+ * [new branch]      integV2-plateau -> origin/integV2-plateau
+   5b79888..718f2e4  master     -> origin/master
+shaohuil-hz-3:LO23-Battleship-Online Huiling$ git checkout -b gestionFinPartie_data origin/gestionFinPartie_data
+Branch gestionFinPartie_data set up to track remote branch gestionFinPartie_data from origin.
+Switched to a new branch 'gestionFinPartie_data'
+shaohuil-hz-3:LO23-Battleship-Online Huiling$ git status
+On branch gestionFinPartie_data
+Your branch is up-to-date with 'origin/gestionFinPartie_data'.
+nothing to commit, working directory clean
+shaohuil-hz-3:LO23-Battleship-Online Huiling$ git push gestionFinPartie_data origin
+fatal: 'gestionFinPartie_data' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+shaohuil-hz-3:LO23-Battleship-Online Huiling$ git add .
+shaohuil-hz-3:LO23-Battleship-Online Huiling$ git commit -m 'switch to V4 branche'
+On branch gestionFinPartie_data
+Your branch is up-to-date with 'origin/gestionFinPartie_data'.
+nothing to commit, working directory clean
+shaohuil-hz-3:LO23-Battleship-Online Huiling$ git add .
+shaohuil-hz-3:LO23-Battleship-Online Huiling$ git commit -m 'switch to V4 branche'
+[gestionFinPartie_data a04012d] switch to V4 branche
+ 1 file changed, 1 insertion(+)
+shaohuil-hz-3:LO23-Battleship-Online Huiling$ git push origin gestionFinPartie_data
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 535 bytes | 0 bytes/s, done.
+Total 7 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To git@github.com:alexballet/LO23-Battleship-Online.git
+   0f64105..a04012d  gestionFinPartie_data -> gestionFinPartie_data
+shaohuil-hz-3:LO23-Battleship-Online Huiling$ 
+
+delete branch:
+git branch -D branch_name(local)
+
+git push origin :branch-name(remote)
+
+
+merge branche:
+
+shaohuil-hz-3:testgit Huiling$ git status
+On branch branche1
+Your branch is up-to-date with 'origin/branche1'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+
+no changes added to commit (use "git add" and/or "git commit -a")
+shaohuil-hz-3:testgit Huiling$ git add .
+shaohuil-hz-3:testgit Huiling$ git commit -m 'test1'
+[branche1 f1e269b] test1
+ 2 files changed, 3 insertions(+)
+ create mode 100644 .DS_Store
+shaohuil-hz-3:testgit Huiling$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+shaohuil-hz-3:testgit Huiling$ git merge branche1
+Updating 547da1a..f1e269b
+Fast-forward
+ .DS_Store | Bin 0 -> 6148 bytes
+ README.md |   3 +++
+ 2 files changed, 3 insertions(+)
+ create mode 100644 .DS_Store
+shaohuil-hz-3:testgit Huiling$ git push origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 573 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To git@github.com:huilingSHAOCH/testgit.git
+   547da1a..f1e269b  master -> master
+shaohuil-hz-3:testgit Huiling$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   .DS_Store
+
+no changes added to commit (use "git add" and/or "git commit -a")
+shaohuil-hz-3:testgit Huiling$ git checkout branche1
+M	.DS_Store
+Switched to branch 'branche1'
+Your branch is ahead of 'origin/branche1' by 1 commit.
+  (use "git push" to publish your local commits)
+shaohuil-hz-3:testgit Huiling$ git status
+On branch branche1
+Your branch is ahead of 'origin/branche1' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   .DS_Store
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+shaohuil-hz-3:testgit Huiling$ git add .
+shaohuil-hz-3:testgit Huiling$ git commit -m 'test2'
+[branche1 db07887] test2
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+shaohuil-hz-3:testgit Huiling$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+shaohuil-hz-3:testgit Huiling$ git merge branche1
+Updating f1e269b..db07887
+Fast-forward
+ .DS_Store | Bin 6148 -> 6148 bytes
+ README.md |   2 +-
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+shaohuil-hz-3:testgit Huiling$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+shaohuil-hz-3:testgit Huiling$ git add .
+shaohuil-hz-3:testgit Huiling$ git commit -m 'master3'
+[master 57e2569] master3
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+shaohuil-hz-3:testgit Huiling$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+shaohuil-hz-3:testgit Huiling$ git checkout branche1
+Switched to branch 'branche1'
+Your branch is ahead of 'origin/branche1' by 2 commits.
+  (use "git push" to publish your local commits)
+shaohuil-hz-3:testgit Huiling$ git status
+On branch branche1
+Your branch is ahead of 'origin/branche1' by 2 commits.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+shaohuil-hz-3:testgit Huiling$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+	README.md
+Please commit your changes or stash them before you can switch branches.
+Aborting
+shaohuil-hz-3:testgit Huiling$ git add .
+shaohuil-hz-3:testgit Huiling$ git commit -m 'branche1_4'
+[branche1 f70e095] branche1_4
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+shaohuil-hz-3:testgit Huiling$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+shaohuil-hz-3:testgit Huiling$ git merge branche1
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+shaohuil-hz-3:testgit Huiling$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+	both modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+shaohuil-hz-3:testgit Huiling$ git add .
+shaohuil-hz-3:testgit Huiling$ git commit -m 'merge branche1 to master'
+[master 47142e2] merge branche1 to master
+shaohuil-hz-3:testgit Huiling$ git push origin master
+Counting objects: 13, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (13/13), 1.21 KiB | 0 bytes/s, done.
+Total 13 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To git@github.com:huilingSHAOCH/testgit.git
+   f1e269b..47142e2  master -> master
+shaohuil-hz-3:testgit Huiling$ 
+
+
+
